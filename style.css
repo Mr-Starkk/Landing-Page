@@ -1,0 +1,114 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(196, 160, 44);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+}
+#kang{
+    width: 48%;
+    height: 27%;
+}
+h2{
+    font-size: 48px;
+    color: rgb(196, 160, 44);
+    font-weight: bolder;
+}
+#kang-text{
+    font-size: 18px;
+    color: rgb(196, 160, 44);
+}
+.top-section{
+    background: #1f2937;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding-bottom: 60px;
+    align-items: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    
+}
+.right-links{
+    display: flex;
+    gap: 18px;
+}
+.content1{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80%;
+}
+.left-kang-text{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 10px;
+}
+.left-kang-text button{
+    align-self: flex-start;
+    background-color: #3882f6;
+    border-radius: 1.1em;
+    height: 30px;
+    filter: drop-shadow(16px 16px 20px black);
+}
+.left-kang-text button:hover{
+    transform:scale(1.2,1.2);
+    
+}
